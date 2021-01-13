@@ -6,29 +6,33 @@ body
   font-family: Arial;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 0;
 }
 .Top-container
 {
   background-color: #a3ddcb;
   padding-top: 100px;
   position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .middle-container
 {
-  margin-top: 100px;
+  margin-top: 0;
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 0;
   background-color: #d6efc7;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-right: auto;
   padding-left:auto;
-  padding-bottom: 20px;
+  padding-bottom: 90px;
 }
 .Bottom-container
 {
   background-color: #a3ddcb;
-  padding: 10px 0 20px;
+  padding-top: 10px;
+  padding-bottom: 0;
 }
 .skill-row
 {
@@ -50,25 +54,34 @@ body
 }
 .copyright
 {
-  font-size: 1rem;
+  font-size: 80%;
   color: #EAF6F6;
-  padding: 20px 0;
+  padding: 20px auto 0 auto;
+  margin-bottom: 2px;
 }
 .nube1
 {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  right: 250px;
+  top: 80px;
 }
 .nube2
 {
   position: absolute;
   left: 250px;
-  bottom: 300px;
+  bottom: 450px;
+}
+.montaña
+{
+  height: 550px;
 }
 .foto
 {
   height:300px;
+}
+.Soy
+{
+  font-size: 1rem;
 }
 .imagenhabilidad1
 {
@@ -101,7 +114,7 @@ color: #184d47;
 {
 font-size: 2.5rem;
 font-weight: normal;
-padding-bottom: 10px; /*Qué es......................................*/
+padding-bottom: 10px; 
 }
 h2
 {
