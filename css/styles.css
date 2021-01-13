@@ -1,9 +1,11 @@
 body
 {
-  margin:0;
   text-align: center;
   background-color: #a3ddcb;
   text-rendering: optimizeLegibility;
+  margin: 0 auto 0 auto;
+  height: 100%;
+  position: relative;
 }
 .Top-container
 {
